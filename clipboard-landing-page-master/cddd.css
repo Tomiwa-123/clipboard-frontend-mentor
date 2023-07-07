@@ -1,0 +1,204 @@
+body{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+  }
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  h1{
+    text-align: center;
+    font-family: Bai Jamjuree;
+  }
+
+  h5{
+    text-align: center;
+    color: #D0D0D0;
+    font-family: Bai Jamjuree;
+  }
+
+  .landing{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+   
+  }
+    .look{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+    .trial{
+      display: block;
+      text-align: center;
+    }
+
+  .container{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
+  h4{
+    border: 1px solid hsl(171, 66%, 44%);
+    width: 200px;
+    background-color: hsl(171, 66%, 44%);
+    text-align: center;
+    border-radius: 60px;
+    padding: 15px;
+    margin-right: 0.1px;
+    font-family: Bai Jamjuree;
+  }
+
+  h3{
+    border: 1px solid hsl(233, 100%, 69%);
+    width: 200px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 60px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 0.1px;
+    font-family: Bai Jamjuree;
+  }
+
+  h4 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: ease 0.9s;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: ease 0.9s;
+}
+
+h6{
+  text-align: left;
+  color: #D0D0D0;
+  margin-bottom: 110px;
+  font-family: Bai Jamjuree;
+}
+
+h5{
+  font-family: Bai Jamjuree;
+}
+ .easy{
+  float: left ;
+  margin-right: 100px;
+ }
+ul{
+  color: black;
+  display: flex;
+}
+
+li{
+  margin: 20px;
+  list-style-type: none;
+}
+
+.bran{
+ width: 50px;
+ height: 50px;
+ border-radius: 20px;
+}
+footer{
+  border: 1px solid #D8D8D8;
+  background-color: #D8D8D8;
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  center{
+  background-image: url(images/bg-header-mobile.png);
+  background-position: center;
+  background-size: cover;
+  /* width: 400px; */
+  }
+.icon{
+  display: block;
+  text-align: center;
+}
+
+.iCloud{
+  display: flex;
+  justify-content: center;
+}
+
+  .container{
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: column;
+    border: 1px solid white;
+align-items: center;
+  }
+
+  .die{
+    margin-bottom: 50px;
+    width: 300px;  
+   text-align: center;
+  }
+  .easy{
+    margin-bottom: 50px;
+  width: 300px;  
+ text-align: center;
+ margin: 0  ;
+  }
+  .look{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mx-auto{
+    margin-top: 40px;
+  }
+.landing{
+  flex-direction: column;
+  text-align: center;
+}
+
+  .trial{
+    text-align: center;
+    align-content: center;
+    display: block;
+    justify-content: center;
+  }
+  p{
+    display: block;
+    justify-content: space-around;
+    margin: 50px;
+  }
+
+  ul{
+    color: black;
+    display: block;
+    margin-bottom: 0px;
+  }
+  .bran{
+    margin-top: 80px;
+    width: 100px;
+    height: 100px;
+  }
+  footer{
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+  }
+}

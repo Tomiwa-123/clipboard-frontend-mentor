@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z INDEX</title>
+    <link rel="icon" href="mario.PNG">
+    <style>
+        body{background-color: #E7E9EB;}
+        #my div div{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-color: yellow;
+            border: 1px solid;
+            opacity: 0.5;
+        }
+        #my box{
+            position: absolute;
+            background-color: red; important;
+            opacity: 1; important;
+            z-index: 2;
+        }
+        img {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>the z-index property</h1>
+    <div id="my div">
+    <div id="my box">my box</div>
+    <div style="top: 20px; left: 40px; z-index: 0;">z-index 0</div>
+    <div style="top: 40px;left: 40px; z-index: 1;">z-index 1</div>
+    <div style="top: 60px; left: 60px; z-index: 2;">z-index 2</div>
+    <div style="top: 80px; left: 50px; z-index: 3;">z-index 2</div>
+   <div class="mouseover"> <img src="mario.PNG" alt="Mario">
+   </div>
+</body>
+</html>
